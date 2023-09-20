@@ -24,7 +24,7 @@ int main() {
 
     
 
-    printf("Enter new element of Array: ");
+    printf("Enter new element of Array :\n");
     scanf("%d", &N);
 
     int newArray[5 + N];
@@ -34,7 +34,7 @@ int main() {
     }
 
     for (int i = 5; i < 5 + N; i++) {
-        printf("Input: ");
+        printf("Input :\n");
         scanf("%d", &newArray[i]);
     }
 
@@ -47,18 +47,19 @@ int main() {
             }
         }
     }
-    printf("Old Array: ");
+    printf("Old Array : ");
     for (int i = 0; i < 5; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
 
-    printf("New Array: ");
+    printf("New Array : ");
     for (int i = 0; i < 5 + N; i++) {
         printf("%d ", newArray[i]);
     }
     printf("\n");
 
     return 0;
+
 }
 
