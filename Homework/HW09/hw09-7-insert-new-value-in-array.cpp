@@ -22,11 +22,7 @@ int main() {
     int arr[] = {9, 2, 6, 1, 7};
     int N;
 
-    printf("Old Array: ");
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+    
 
     printf("Enter new element of Array: ");
     scanf("%d", &N);
@@ -51,6 +47,11 @@ int main() {
             }
         }
     }
+    printf("Old Array: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     printf("New Array: ");
     for (int i = 0; i < 5 + N; i++) {
